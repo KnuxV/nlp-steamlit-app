@@ -5,7 +5,7 @@ from src.word_count import count_words
 from src.sentence_count import count_sentences
 
 st.title('Our simple NLP APP to practice GIT')
-user_txt = st.text_area('text to analyze', value='Enter your text here')
+user_txt = st.text_area('text to analyze', placeholder='Enter your text here')
 
 # Map options to their handler functions
 TOOLS = {
