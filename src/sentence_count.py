@@ -1,2 +1,2 @@
-def count_sentences():
-    return None
+def count_sentences(txt:str) -> str:
+    return """"""
