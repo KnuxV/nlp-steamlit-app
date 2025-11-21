@@ -1,2 +1,2 @@
 def count_words(txt:str) -> str:
-    return ""
+    return len(txt.split())
