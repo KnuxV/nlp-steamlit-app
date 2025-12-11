@@ -5,6 +5,7 @@ from src.word_count import count_words
 from src.sentence_count import count_sentences
 from src.make_text_uppercase import text_uppercase
 from src.sudification import sudification
+from src.make_text_lowercase import text_lowercase
 
 # The title
 st.title('Our simple NLP APP to practice GIT')
@@ -16,6 +17,7 @@ user_txt = st.text_area('text to analyze', placeholder='Enter your text here')
 # Values = Functions that is executed when button is clicked
 TOOLS = {
     "Uppercase": text_uppercase,
+    "Lowercase": text_lowercase,
     "Number of words": count_words,
     "Number of sentences": count_sentences,
     "Sentiment Analysis": analyze_sentiment,
